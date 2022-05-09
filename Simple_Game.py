@@ -74,7 +74,7 @@ def defeat():
         ending()
 
 def ending():
-    print("The End")
+    print("The End.")
     quit()
 
 stat_gen()
