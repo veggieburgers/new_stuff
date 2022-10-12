@@ -1,3 +1,7 @@
+#PIL alternative
+#from PIL import Image
+
+#os alternative
 import os
 passwordFile = open('SecretPasswordFile.txt')
 secretPassword = passwordFile.read()
@@ -11,4 +15,8 @@ while True:
     else:
         print('Access denied\n')
 
+#PIL alternative
+#Image.open('chest.jpg').show()
+
+#os alternative
 os.startfile('chest.jpg')
